@@ -16,3 +16,12 @@ hr{
 h1,h2,h3{
     text-align: center;
 }
+
+li,img,p{
+    display: block;
+    max-width: 500px;
+    margin-top: 0; margin-bottom: 0;
+    margin-right: auto; margin-left: auto;
+    
+
+}
