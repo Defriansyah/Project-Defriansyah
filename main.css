@@ -12,3 +12,7 @@ hr{
     width: 30%; 
     border-color: rebeccapurple;
 }
+
+h1,h2,h3{
+    text-align: center;
+}
