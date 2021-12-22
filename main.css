@@ -19,7 +19,7 @@ h1,h2,h3{
 
 ol,ul,img,p{
     display: block;
-    max-width: 500px;
+    max-width: 515px;
     margin-top: 0; margin-bottom: 0;
     margin-right: auto; margin-left: auto;
 }
@@ -32,6 +32,7 @@ ol,ul,img,p{
     background-color: blanchedalmond;
     position: sticky;
     top: 0;
+    
 }
 
 #navbar li{
@@ -125,4 +126,17 @@ tr:hover{
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
+}
+
+.my-portofolio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.my-portofolio img {
+    box-sizing: border-box;
+    width: 33,33%;
+    padding: 25px;
 }
