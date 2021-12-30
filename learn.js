@@ -26,18 +26,31 @@
 // console.log('x-- =', x--)
 // console.log('--x =', --x)
 
-//Latihan 5.2: Melakukan operasi sederhana dengan operator aritmatika
+// // Latihan 5.2: Melakukan operasi sederhana dengan operator aritmatika
 
-let a = 7
-let b = 2
-console.log(a, b)
-console.log('a > b =', a > b)
-console.log('a < b =', a < b)
-console.log('a >= b =', a >= b)
-console.log('a <= b =', a <= b)
-console.log('a == b =', a == b)
-console.log('a != b =', a != b)
-console.log('a === b =', a === b)
-console.log('a !== b =', a !== b)
+// let a = 7
+// let b = 2
+// console.log(a, b)
+// console.log('a > b =', a > b)
+// console.log('a < b =', a < b)
+// console.log('a >= b =', a >= b)
+// console.log('a <= b =', a <= b)
+// console.log('a == b =', a == b)
+// console.log('a != b =', a != b)
+// console.log('a === b =', a === b)
+// console.log('a !== b =', a !== b)
 
-//Latihan 5.3: Melakukan operasi sederhana dengan operator perbandingan
+// Latihan 5.3: Melakukan operasi sederhana dengan operator perbandingan
+
+console.log('true && true =', true && true)
+console.log('true && false =', true && false)
+console.log('false && true =', false && true)
+console.log('false && false =', false && false)
+console.log('true || true =', true || true)
+console.log('true || false =', true || false)
+console.log('false || true =', false || true)
+console.log('false || false =', false || false)
+console.log('!true =', !true)
+console.log('!false =', !false)
+
+//Latihan 5.4: Melakukan operasi sederhana dengan operator logika
