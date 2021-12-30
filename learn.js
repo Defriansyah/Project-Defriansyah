@@ -12,3 +12,18 @@ console.log(phi)
 window.alert("Angka favorit saya adalah : " + myNumber)
 window.alert('Angka favorit saya adalah : ' + myNumber)
 window.alert(`Angka favorit saya adalah : ${myNumber}`)
+
+let x = 7
+let y = 2
+console.log(x, y)
+console.log('x + y =', x + y)
+console.log('x - y =', x - y)
+console.log('x * y =', x * y)
+console.log('x / y =', x / y)
+console.log('x % y =', x % y)
+console.log('x++ =', x++)
+console.log('++x =', ++x)
+console.log('x-- =', x--)
+console.log('--x =', --x)
+
+//Latihan 5.2: Melakukan operasi sederhana dengan operator aritmatika
