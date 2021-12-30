@@ -42,15 +42,35 @@
 
 // Latihan 5.3: Melakukan operasi sederhana dengan operator perbandingan
 
-console.log('true && true =', true && true)
-console.log('true && false =', true && false)
-console.log('false && true =', false && true)
-console.log('false && false =', false && false)
-console.log('true || true =', true || true)
-console.log('true || false =', true || false)
-console.log('false || true =', false || true)
-console.log('false || false =', false || false)
-console.log('!true =', !true)
-console.log('!false =', !false)
+// console.log('true && true =', true && true)
+// console.log('true && false =', true && false)
+// console.log('false && true =', false && true)
+// console.log('false && false =', false && false)
+// console.log('true || true =', true || true)
+// console.log('true || false =', true || false)
+// console.log('false || true =', false || true)
+// console.log('false || false =', false || false)
+// console.log('!true =', !true)
+// console.log('!false =', !false)
 
-//Latihan 5.4: Melakukan operasi sederhana dengan operator logika
+// //Latihan 5.4: Melakukan operasi sederhana dengan operator logika
+
+//fungsi luas persegi
+function luas_persegi(s){
+    return s * s
+}
+
+//fungsi luar segitiga
+function luas_segitiga (a, t){
+    return 0.5 * a * t
+}
+
+//fungsi volume blok 
+function volume_balok(p,l,t){
+    return p * l * t
+}
+
+//menampilkan hasil ke consol
+console.log("luas persegi = " + luas_persegi(7))
+console.log("luas segitiga = " + luas_segitiga(4,7))
+console.log("volume baok = " + volume_balok(2,9,4))
