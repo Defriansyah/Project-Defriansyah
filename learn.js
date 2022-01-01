@@ -130,32 +130,45 @@
 // //Latihan 5.6: Bermain dengan array
 
 
-// objek dengan data laptop
+// // objek dengan data laptop
 
-let laptop = {
-    id_laptop : 1 ,
-    nama_laptop : "Lenovo S340",
-    processor : "AMD Ryzen 3 3200U with Radeon Vega Mobile Gfx 2.10 GHz",
-    ram : "8 GB",
-    rom : "512 GB",
-    harga : 9000000,
-    diskon : function () {
-        return this.harga * 8/100
-    },
-    hargaSetelahDiskon : function () {
-        return this.harga - this.diskon()
-    }
-}
+// let laptop = {
+//     id_laptop : 1 ,
+//     nama_laptop : "Lenovo S340",
+//     processor : "AMD Ryzen 3 3200U with Radeon Vega Mobile Gfx 2.10 GHz",
+//     ram : "8 GB",
+//     rom : "512 GB",
+//     harga : 9000000,
+//     diskon : function () {
+//         return this.harga * 8/100
+//     },
+//     hargaSetelahDiskon : function () {
+//         return this.harga - this.diskon()
+//     }
+// }
 
-// menampilkan objek
-console.log("nama laptop = " + laptop.nama_laptop);
+// // menampilkan objek
+// console.log("nama laptop = " + laptop.nama_laptop);
 
-console.log("processor : "+ laptop["processor"])
+// console.log("processor : "+ laptop["processor"])
 
-console.log("harga laptop = Rp" + laptop["harga"]);
+// console.log("harga laptop = Rp" + laptop["harga"]);
 
-console.log("diskon = Rp"+ laptop.diskon());
+// console.log("diskon = Rp"+ laptop.diskon());
 
-console.log("harga setelah diskon = Rp"+ laptop.hargaSetelahDiskon());
+// console.log("harga setelah diskon = Rp"+ laptop.hargaSetelahDiskon());
 
-//Latihan 5.7 bermain dengan object
+// //Latihan 5.7 bermain dengan object
+
+
+// menampilkan anomali pada javacript
+console.log(0.1 + 0.2 == 0.3);
+console.log(1 + "1");
+console.log(1 - "1");
+console.log(1 < 2 < 3);
+console.log(3 > 2 > 1);
+console.log(null == 0);
+console.log(null > 0);
+console.log(null >= 0);
+
+//Latihan 5.8 anomali pada javaScript
